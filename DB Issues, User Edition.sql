@@ -36,6 +36,7 @@ CREATE TABLE employee (
 CREATE TABLE customer (
     order_id VARCHAR2()
     item_amount VARCHAR2()
+    
 )
 
 --Create equipment table
