@@ -29,6 +29,7 @@ CREATE TABLE employee (
     employee_id NUMBER(6),
     employee_name VARCHAR2(),
     hourly_rate DECIMAL(),
+    staff_schedule DATE(),
     
 )
 
@@ -40,9 +41,23 @@ CREATE TABLE customer (
 )
 
 --Create equipment table
+CREATE TABLE equipment(
+    plate_amt NUMBER(),
+    utensils_amt NUMBER(),
+    cups_amt NUMBER(),
+    tables_amt NUMBER(),
+    stock_date date()
+)
 
 
 --Create shipments
+CREATE TABLE shipments (
+    shipment_num NUMBER(),
+    item_name VARCHAR2(),
+    total_items NUMBER(),
+    total_cost DECIMAL(),
+    
+)
 
 
 --Create TABLE table.
