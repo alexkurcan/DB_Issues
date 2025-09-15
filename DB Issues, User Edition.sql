@@ -60,4 +60,10 @@ CREATE TABLE shipments (
 )
 
 
---Create TABLE table.
+--Create TABLE tables.
+CREATE TABLE tables(
+    employee_id NUMBER(),
+    employee_name VARCHAR2(),
+    section NUMBER(),
+    table_num NUMBER(),
+)
