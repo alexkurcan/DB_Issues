@@ -83,6 +83,6 @@ INSERT INTO shipments VALUES (19150, 'Tomatoes', 100, 200);
 INSERT INTO restaurant_tables VALUES (2001, 'Drew Morrow', 3, 14);
 INSERT INTO restaurant_tables VALUES (2002, 'Cristian Singh', 4, 17);
 INSERT INTO restaurant_tables VALUES (2003, 'Dominik Horn', 2, 20);
-INSERT INTO restaurant_tables VALUES (2003, NULL, 3, -20);
+INSERT INTO restaurant_tables VALUES (2004, NULL, 3, 20);
 INSERT INTO restaurant_tables VALUES (2005, 'Jane Doe', 1, 15);
  
